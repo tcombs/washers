@@ -2,3 +2,6 @@
 {"contributors":[],"silentsave":false,"ts":1374799144959,"patch":[[{"diffs":[[0,"re\": \"*\""],[1,",\n    \"mongodb\": \">= 0.9.6-7\","],[0,"\n  }\n}"]],"start1":198,"start2":198,"length1":14,"length2":44}]],"length":242,"saved":false}
 {"ts":1374799246420,"patch":[[{"diffs":[[0,"0.9.6-7\""],[-1,","],[0,"\n  }\n}"]],"start1":227,"start2":227,"length1":15,"length2":14}]],"length":241,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1374843802289,"patch":[[{"diffs":[[0,"ongo"],[-1,"db"],[1,"ose"],[0,"\": \""],[-1,">= 0.9.6-7"],[1,"latest"],[0,"\"\n  "]],"start1":214,"start2":214,"length1":24,"length2":21}]],"length":238,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1374870887012,"patch":[[{"diffs":[[0,"\"latest\""],[1,",\n    \"socket.io\": \"~0.9.6\""],[0,"\n  }\n}"]],"start1":224,"start2":224,"length1":14,"length2":41}]],"length":265,"saved":false}
+{"ts":1374870894803,"patch":[[{"diffs":[[0,"\": \""],[-1,"~0.9.6"],[1,"latest"],[0,"\"\n  "]],"start1":248,"start2":248,"length1":14,"length2":14}]],"length":265,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1374872436669,"patch":[[{"diffs":[[0,"t.io\": \""],[-1,"latest"],[1,">= 0.9.13"],[0,"\"\n  }\n}"]],"start1":244,"start2":244,"length1":21,"length2":24}]],"length":268,"saved":false}

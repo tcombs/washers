@@ -1,2 +1,8 @@
 {"ts":1374858797372,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
 {"contributors":[],"silentsave":false,"ts":1374858794868,"patch":[[{"diffs":[[1,"@oucrimson: #841617;\n@oucream: #FDF9D8;"]],"start1":0,"start2":0,"length1":0,"length2":39}]],"length":39,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1374865350643,"patch":[[{"diffs":[[1,"//colors\n"],[0,"@oucrimson: "]],"start1":0,"start2":0,"length1":12,"length2":21},{"diffs":[[0,"#FDF9D8;"],[1,"\n@ouwhite: white;\n\n\n@fonts: \"Raleway\", HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \n"]],"start1":40,"start2":40,"length1":8,"length2":159}]],"length":199,"saved":false}
+{"ts":1374865362859,"patch":[[{"diffs":[[0,"leway\", "],[1,"\""],[0,"Helvetic"]],"start1":79,"start2":79,"length1":16,"length2":17}]],"length":200,"saved":false}
+{"ts":1374865458065,"patch":[[{"diffs":[[0,"way\""],[-1,", \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif"],[0,"; \n"]],"start1":81,"start2":81,"length1":119,"length2":7}]],"length":88,"saved":false}
+{"ts":1374865673502,"patch":[[{"diffs":[[0,"s: \""],[-1,"Raleway\""],[1,"Open Sans\",\"Raleway\" , sans-serif"],[0,"; \n"]],"start1":73,"start2":73,"length1":15,"length2":40}]],"length":113,"saved":false}
+{"ts":1374865772954,"patch":[[{"diffs":[[0,"\n@fonts:"],[1," 'Open Sans Condensed',"],[0," \"Open S"]],"start1":67,"start2":67,"length1":16,"length2":39}]],"length":136,"saved":false}
+{"ts":1374865788381,"patch":[[{"diffs":[[0,"ts: "],[-1,"'Open Sans Condensed', \"Open Sans\","],[0,"\"Ral"]],"start1":72,"start2":72,"length1":43,"length2":8}]],"length":101,"saved":false}
