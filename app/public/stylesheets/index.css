@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+html body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: white;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+html body .banner {
+  text-align: center;
+  background-color: black;
+  height: 10%;
+}
+html body .banner .banner-content {
+  font-weight: bold;
+}
+html body .banner .banner-content .boomer {
+  color: #841617;
+}
+html body .banner .banner-content .sooner {
+  color: #fdf9d8;
+}
+html body .team-one-container {
+  background-color: #841617;
+}
+html body .team-two-container {
+  background-color: #fdf9d8;
+}
+html body .team-container {
+  height: 45%;
+  text-align: center;
+}
+html body .team-container h1 {
+  padding: 0;
+  margin: 0;
+}

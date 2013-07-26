@@ -1,0 +1,3 @@
+{"ts":1374799038322,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"body {\n  padding: 50px;\n  font: 14px \"Lucida Grande\", Helvetica, Arial, sans-serif;\n}\n\na {\n  color: #00B7FF;\n}"]],"start1":0,"start2":0,"length1":0,"length2":110}]],"length":110}
+{"contributors":[],"silentsave":false,"ts":1374857190739,"patch":[[{"diffs":[[-1,"body {\n  padding: 50px;\n  font: 14px \"Lucida Grande\", Helvetica, Arial, sans-serif;\n}\n\na {\n  color: #00B7FF;\n}"],[1,"@import \"vars.less\";"]],"start1":0,"start2":0,"length1":110,"length2":20}]],"length":20,"saved":false}
+{"ts":1374857277214,"patch":[[{"diffs":[[0,"s.less\";"],[1,"\n\n"]],"start1":12,"start2":12,"length1":8,"length2":10}]],"length":22,"saved":false}

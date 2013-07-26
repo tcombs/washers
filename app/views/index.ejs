@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title>Washers</title>
+    <link rel="stylesheet" src="http://normalize-css.googlecode.com/svn/trunk/normalize.css" />
+    <link rel='stylesheet' type="text/css" href='/stylesheets/index.css' />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    <ul>
-    <% for(var i=0; i < games.length; i++) {%>
-        <li><%= i %></li>
-    <% } %>
-    </ul>
+    <div class="team-one-container team-container">
+         <div class="score-div">
+             <h1>
+                <span class="team-one-score">
+                    <%= teamOneScore%>
+                </span>
+             </h1>
+         </div>
+    </div>
+   <div class="banner">
+       <span class="banner-content"> <span class="boomer">BOOMER</span> <span class="image"></span> <span class="sooner">SOONER</span> </span>
+   </div>
+    <div class="team-two-container team-container">
+        <div class="score-div">
+            <h1>
+                <span class="team-two-score">
+                    <%= teamTwoScore%>
+                </span>
+            </h1>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/javascripts/index.js"></script>
   </body>
 </html>
