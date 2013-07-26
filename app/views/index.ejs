@@ -3,12 +3,22 @@
   <head>
     <title>Washers</title>
     <link rel="stylesheet" src="http://normalize-css.googlecode.com/svn/trunk/normalize.css" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' type="text/css" href='/stylesheets/bootstrap.css' />
     <link rel='stylesheet' type="text/css" href='/stylesheets/index.css' />
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <div class="team-one-container team-container">
+    <div class="team-one-buttons">
+            <a href="/add/1/3" class="btn btn btn-warning plus-three-team-one">+3</a>
+            <a href="/add/1/1" class="btn btn btn-warning plus-one-team-one">+1</a>
+            <a href="/sub/1/3" class="btn btn-warning minus-three-team-one">-3</a>
+            <a href="/sub/1/1" class="btn btn-warning minus-one-team-one">-1</a>
+        </div>
          <div class="score-div">
              <h1>
                 <span class="team-one-score">
@@ -18,7 +28,7 @@
          </div>
     </div>
    <div class="banner">
-       <span class="banner-content"> <span class="boomer">BOOMER</span> <span class="image"></span> <span class="sooner">SOONER</span> </span>
+       <div class="banner-content"> <span class="boomer">BOOMER</span> <span class="image"></span> <span class="sooner">SOONER</div> </span>
    </div>
     <div class="team-two-container team-container">
         <div class="score-div">
@@ -28,8 +38,16 @@
                 </span>
             </h1>
         </div>
+        
+        <div class="team-two-buttons">
+            <a href="/add/2/3" class="btn btn btn-danger plus-three-team-two">+3</a>
+            <a href="/add/2/1" class="btn btn btn-danger plus-one-team-two">+1</a>
+            <a href="/sub/2/3" class="btn btn-danger minus-three-team-two">-3</a>
+            <a href="/sub/2/1" class="btn btn-danger minus-one-team-two">-1</a>
+        </div>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
     <script src="/javascripts/index.js"></script>
   </body>
 </html>

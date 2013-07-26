@@ -44,10 +44,21 @@ app.get('/add/:team/:ammount',api.add);
 app.get('/sub/:team/:ammount',api.sub);
 app.get('/clear',api.clear);
 
-http.createServer(app).listen(app.get('port'), function(){
+var server = http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
 
 //after app initializes connect to db
 var databaseSettings = require('./private/dbconnection.js');
 mongoose.connect(databaseSettings.dbconstring);
+
+
+//set up websockets
+var io = require('socket.io');
+io.listen(80);
+io.sockets.on('connection', function (socket) {
+  socket.emit('news', { hello: 'world' });
+  socket.on('my other event', function (data) {
+    console.log(data);
+  });
+});

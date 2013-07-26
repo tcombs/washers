@@ -21,7 +21,7 @@ exports.add = function(req, res) {
             game.teamtwoscore += ammount;
         }
         game.save(function() {
-            res.redirect('/');
+            res.send(game);
         });
         
     });
@@ -40,7 +40,7 @@ exports.sub = function(req, res) {
             game.teamtwoscore -= ammount;
         }
         game.save(function() {
-            res.redirect('/');
+            res.send(game);
         });
         
     });

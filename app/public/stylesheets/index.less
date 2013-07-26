@@ -10,12 +10,33 @@ html {
     height: 100%; 
     margin: 0px; 
     padding: 0px;
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .btn-warning {
+             color: @oucrimson;
+        &:hover {
+            color: @oucrimson;
+        }
+        }
+        
+    .btn-danger {
+        color: @oucream;
+        &:hover {
+            color: @oucream;
+        }
+    }
+    
     .banner {
         text-align: center;
         background-color: black;
         height:10%;
+        
         .banner-content {
-            font-weight: bold;
+            
+             
             .boomer {
                 color: @oucrimson;
             }
@@ -29,7 +50,9 @@ html {
     .team-one-container {
         
         background-color: @oucrimson;
-        
+        .team-one-score {
+            verticle-align:middle;
+        }
     }
     
     .team-two-container {
@@ -46,5 +69,7 @@ html {
             margin:0;
         }
     }
+    
+    
 }
 }

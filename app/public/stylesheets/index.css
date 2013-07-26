@@ -4,19 +4,31 @@ html {
   padding: 0px;
 }
 html body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: white;
   height: 100%;
   margin: 0px;
   padding: 0px;
 }
+html body a {
+  text-decoration: none;
+}
+html body .btn-warning {
+  color: #841617;
+}
+html body .btn-warning:hover {
+  color: #841617;
+}
+html body .btn-danger {
+  color: #fdf9d8;
+}
+html body .btn-danger:hover {
+  color: #fdf9d8;
+}
 html body .banner {
   text-align: center;
   background-color: black;
   height: 10%;
-}
-html body .banner .banner-content {
-  font-weight: bold;
 }
 html body .banner .banner-content .boomer {
   color: #841617;
@@ -26,6 +38,9 @@ html body .banner .banner-content .sooner {
 }
 html body .team-one-container {
   background-color: #841617;
+}
+html body .team-one-container .team-one-score {
+  verticle-align: middle;
 }
 html body .team-two-container {
   background-color: #fdf9d8;
